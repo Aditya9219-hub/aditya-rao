@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Student Registration Form Using Table in HTML</h2>
+        <form action="main.html">
+            <table>
+                <tr>
+                    <td>First Name</td>
+                    <td><input type="text" name="firstname" placeholder="" maxlength="50"></td>
+                    <td class="max-info">(Max 50 characters allowed)</td>
+                </tr>
+                <tr>
+                    <td>Last Name</td>
+                    <td><input type="text" name="lastname" placeholder="" maxlength="50"></td>
+                    <td class="max-info">(Max 50 characters allowed)</td>
+                </tr>
+                <tr>
+                    <td>Email ID</td>
+                    <td><input type="email" name="email" placeholder="" maxlength="50"></td>
+                </tr>
+                <tr>
+                    <td>Mobile Number</td>
+                    <td><input type="tel" name="phone" placeholder="" maxlength="10"></td>
+                    <td class="max-info">(10 digits allowed)</td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td><input type="radio" name="gender" value="male">Male</td>
+                    <td><input type="radio" name="gender" value="female">Female</td>
+                </tr>
+                <tr>
+                    <td>Pin Code</td>
+                    <td><input type="text" name="pincode" placeholder="" maxlength="6"></td>
+                </tr>
+                <tr>
+                    <td>Country</td>
+                    <td><input type="text" name="country" placeholder=""></td>
+                </tr>
+                <tr>
+                    <td>Hobbies</td>
+                    <td>
+                        <input type="checkbox" name="hobbies" value="drawing">Drawing
+                        <input type="checkbox" name="hobbies" value="singing">Singing
+                        <input type="checkbox" name="hobbies" value="dancing">Dancing
+                        <input type="checkbox" name="hobbies" value="sketching">Sketching
+                        <input type="checkbox" name="hobbies" value="other">Other
+                    </td>
+                </tr>
+                <tr>
+                    <td>Qualification</td>
+                    <td>
+                        <input type="checkbox" name="qualification" value="highschool">High School
+                        <input type="checkbox" name="qualification" value="bachelor">Bachelor's Degree
+                        <input type="checkbox" name="qualification" value="master">Master's Degree
+                    </td>
+                </tr>
+                <tr>
+                    <td>Courses Applied For</td>
+                    <td>
+                        <input type="radio" name="course" value="Bca">BCA
+                        <input type="radio" name="course" value="B.com">B.Com
+                        <input type="radio" name="course" value="B.sc">B.Sc
+                        <input type="radio" name="course" value="Ba">BA
+                        <input type="radio" name="course" value="Mca">MCA
+                        <input type="radio" name="course" value="B.com">M.Com
+                        <input type="radio" name="course" value="M.sc">M.Sc
+                        <input type="radio" name="course" value="Ma">MA
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3"><input type="submit" value="Submit"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
